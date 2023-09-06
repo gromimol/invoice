@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Счет</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="cta">
+                <div class="h2 font-500">
+                    Управление комменрческим предложением :
+                </div>
+                <div class="cta__btns">
+                    <a href="#" class="btn btn--black">
+                        Согласовать
+                    </a>
+                    <a href="#" class="btn js--modal" data-id="revision">
+                        Отправить на доработку
+                    </a>
+                    <a href="#" class="btn js--modal" data-id="callback">
+                        Просьба перезвонить
+                    </a>
+                    <a href="#" class="btn btn--red">
+                        Пожаловаться
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="container container--lt">
+                <div class="content__header">
+                    <div class="content__header__left">
+                        <div class="h2 font-600">
+                            Заказчик :
+                        </div>
+                        <p class="text">
+                            Колесникова Светлана Петровна
+                        </p>
+                        <div class="text-gray">
+                            <p>
+                                +79055722072, +79268988550
+                            </p>
+                            <p>
+                                Г Москва УЛ Ивантеевская д 3 к 1 кв 147
+                            </p>
+                            <p>
+                                <a href="mailto:info@mail.ru.ru">info@mail.ru.ru</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content__header__right">
+                        <div class="h2 font-600">
+                            Менеджер :
+                        </div>
+                        <p class="text">
+                            Андрей Астафьев
+                        </p>
+                        <div class="text-gray">
+                            <p>
+                                Мобильный: <a href="tel:89296410243" class="link">
+                                    8 929 64 10 243
+                                </a>
+                            </p>
+                            <p>
+                                Отдел продаж: <a href="tel:+74955052212" class="link">
+                                    +7 (495) 505-22-12
+                                </a>
+                            </p>
+                            <p>
+                                <a href="mailto:info@mail.ru.ru">info@pqd.ru</a>,<a href="#">pqd.ru</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="content__title">
+                    <div class="h1">Коммерческое предложение</div>
+                    <div class="h2">DYM-23-6976 от 11 авг 2023</div>
+                </div>
+
+
+                <div class="additional-comment">
+                    <div class="h2 font-600">
+                        Комментарий к заказу
+                    </div>
+                    <div class="comment-body bg-gray">
+                        Текст, кормментария, если есть. Если нет, блок<br> не показываем
+                    </div>
+                </div>
+
+                <div class="table-block">
+                    <div class="h2 font-600">
+                        Товары и услуги
+                    </div>
+                    <table class="table table--product">
+                        <thead>
+                            <tr>
+                                <th>Наименование</th>
+                                <th>Материал</th>
+                                <th>Размеры</th>
+                                <th>Кол - во</th>
+                                <th>Стоимость</th>
+                                <th>Сумма</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Памятник АМ1517</td>
+                                <td>Габро</td>
+                                <td></td>
+                                <td>1</td>
+                                <td>84 900 ₽ </td>
+                                <td>84 900 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Усиленная установка</td>
+                                <td>Швелер</td>
+                                <td></td>
+                                <td>1</td>
+                                <td>–</td>
+                                <td>–</td>
+                            </tr>
+                            <tr>
+                                <td>Стелла, дым</td>
+                                <td>Габро</td>
+                                <td>120х60х10</td>
+                                <td>1</td>
+                                <td>–</td>
+                                <td>–</td>
+                            </tr>
+                            <tr>
+                                <td>Тумба, дым</td>
+                                <td>Габро</td>
+                                <td>15х70х20</td>
+                                <td>1</td>
+                                <td>–</td>
+                                <td>–</td>
+                            </tr>
+                            <tr>
+                                <td>ФОТО64-102 цвет Ф№1</td>
+                                <td>Стекло</td>
+                                <td>24х30</td>
+                                <td>1</td>
+                                <td>18 200 ₽</td>
+                                <td>18 200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Болты</td>
+                                <td></td>
+                                <td></td>
+                                <td>4</td>
+                                <td>1 200 ₽</td>
+                                <td>4 800 ₽</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Итого</td>
+                                <td></td>
+                                <td></td>
+                                <td>9</td>
+                                <td></td>
+                                <td>107 900 ₽</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="table-block">
+                    <div class="h2 font-600">
+                        ФИО и даты усопших
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Номер</th>
+                                <th>ФИО</th>
+                                <th class="text-right">Дата рождения</th>
+                                <th class="text-right">Дата смерти</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Иванов Иван Иванович</td>
+                                <td class="text-right">12.12.1956</td>
+                                <td class="text-right">12.12.2021</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-block">
+                    <div class="h2 font-600">
+                        Элементы оформления
+                    </div>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Крестик 75-302</td>
+                            </tr>
+                            <tr>
+                                <td>Эпитафия: Помним, любим, скорбим...</td>
+                            </tr>
+                            <tr>
+                                <td>Шрифт 73-720</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-block">
+                    <div class="h2 font-600">
+                        Монтажные работы
+                    </div>
+                    <table class="table table--product">
+                        <thead>
+                            <tr>
+                                <th>Наименование</th>
+                                <th>Материал</th>
+                                <th>Размеры</th>
+                                <th>Кол - во</th>
+                                <th>Стоимость</th>
+                                <th>Сумма</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Монтаж памятника</td>
+                                <td>–</td>
+                                <td>–</td>
+                                <td>1</td>
+                                <td>4 900 ₽ </td>
+                                <td>4 900 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Монтаж бордюра</td>
+                                <td>–</td>
+                                <td>–</td>
+                                <td>4</td>
+                                <td>2 000 ₽</td>
+                                <td>8 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Отсыпка</td>
+                                <td>Щебень</td>
+                                <td>24х30</td>
+                                <td>1</td>
+                                <td>5 000 ₽</td>
+                                <td>5 000 ₽</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Итого</td>
+                                <td></td>
+                                <td></td>
+                                <td>6</td>
+                                <td></td>
+                                <td>22 900 ₽</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="additional-comment">
+                    <div class="h2 font-600">
+                        Дополнительные работы
+                    </div>
+                    <div class="comment-body bg-gray">
+                        Текст, кормментария, если есть. Если нет, блок<br> не показываем
+                    </div>
+                </div>
+
+                <div class="table-block">
+                    <div class="h2 font-600">
+                        Параметры отгрузки
+                    </div>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Тип отгрузки</td>
+                                <td class="text-right">Доставка по России</td>
+                            </tr>
+                            <tr>
+                                <td>Адрес</td>
+                                <td class="text-right">Кладбище Фенинское, Ленина 54, секция 43, место 1 Светлана Петровна</td>
+                            </tr>
+                            <tr>
+                                <td>Диапазон отгрузки</td>
+                                <td class="text-right">11.09.2023 - 24.09.2023</td>
+                            </tr>
+                            <tr>
+                                <td>Диапазон отгрузки</td>
+                                <td class="text-right">11.09.2023 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-block table-block--total">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Сумма за товары и услуги</td>
+                                <td class="text-right">201 800 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Скидка</td>
+                                <td class="text-right font-700 text-red">6 %/ 16 148 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Итого за товары и услуги со скидкой</td>
+                                <td class="text-right font-600">181 500 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Итого за монтажные работы</td>
+                                <td class="text-right font-600">22 800 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Варианты оплаты</td>
+                                <td class="text-right">Мир, СБП, Куаркод, Реквизиты</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>
+                                    <div class="h2 font-600">
+                                        Предоплата
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="h2 font-600 text-right">
+                                        30% / 50 000 ₽
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="table-tr-total">
+                                <td>
+                                    <div class="h1 font-600">
+                                        Итого по заказу
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="h1 font-600 text-right">
+                                        104 900 ₽
+                                    </div>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="example-img">
+                    <div class="h2 font-600">Эскизы</div>
+
+                    <div class="example-img__body bg-gray">
+                        <img src="https://pamiatnikiizgranita.ru/userfls/shop/medium/1993_pryamougolnyy-vertikalny.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="revision">
+        <div class="modal__content">
+            <div class="close"></div>
+            <div class="h1 font-600">
+                Отправка на дороботку
+            </div>
+            <form action="#">
+                <div class="input-wrapper">
+                    <span>Введите сообщение менеджеру :</span>
+                    <textarea class="input"></textarea>
+                </div>
+                <div class="btn-container">
+                    <input type="submit" class="btn btn--black" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="callback">
+        <div class="modal__content">
+            <div class="close"></div>
+            <div class="h1 font-600">
+                Просьба перезвонить
+            </div>
+            <p class="text-center">
+                Спасибо, мы получили вашу просьбу, в ближайшее время с вами свяжеться ваш менеджер. 
+            </p>
+            <div class="btn-container">
+                <a href="#" class="btn btn--black">Закрыть</a>
+            </div>
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $('.js--modal').on('click', function(e) {
+            e.preventDefault()
+
+            let modalId = $(this).data('id')
+            $('#overlay').show()
+            $(`#${modalId}`).show()
+        })
+        $('.close, #overlay').on('click', function() {
+
+            $('#overlay').hide()
+            $('.modal').hide()
+        })
+    </script>
+</body>
+</html>
