@@ -20,7 +20,7 @@
                     Управление комменрческим предложением :
                 </div>
                 <div class="cta__btns">
-                    <a href="#" class="btn btn--black">
+                    <a href="#" class="btn btn--black js--modal" data-id="callback">
                         Согласовать
                     </a>
                     <a href="#" class="btn js--modal" data-id="revision">
@@ -29,7 +29,7 @@
                     <a href="#" class="btn js--modal" data-id="callback">
                         Просьба перезвонить
                     </a>
-                    <a href="#" class="btn btn--red">
+                    <a href="#" class="btn btn--red js--modal" data-id="complaint">
                         Пожаловаться
                     </a>
                 </div>
@@ -76,7 +76,7 @@
                                 </a>
                             </p>
                             <p>
-                                <a href="mailto:info@mail.ru.ru">info@pqd.ru</a>,<a href="#">pqd.ru</a>
+                                <a href="mailto:info@mail.ru.ru" class="link">info@pqd.ru</a>, <a href="#" class="link">pqd.ru</a>
                             </p>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                     <div class="h2 font-600">
                         ФИО и даты усопших
                     </div>
-                    <table class="table">
+                    <table class="table table--name">
                         <thead>
                             <tr>
                                 <th>Номер</th>
@@ -286,7 +286,7 @@
                     <div class="h2 font-600">
                         Параметры отгрузки
                     </div>
-                    <table class="table">
+                    <table class="table table--deliver">
                         <tbody>
                             <tr>
                                 <td>Тип отгрузки</td>
@@ -316,7 +316,7 @@
                                 <td class="text-right">201 800 ₽</td>
                             </tr>
                             <tr>
-                                <td>Скидка</td>
+                                <td class="font-600">Скидка</td>
                                 <td class="text-right font-700 text-red">6 %/ 16 148 ₽</td>
                             </tr>
                             <tr>
@@ -378,6 +378,23 @@
             <div class="close"></div>
             <div class="h1 font-600">
                 Отправка на дороботку
+            </div>
+            <form action="#">
+                <div class="input-wrapper">
+                    <span>Введите сообщение менеджеру :</span>
+                    <textarea class="input"></textarea>
+                </div>
+                <div class="btn-container">
+                    <input type="submit" class="btn btn--black" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="complaint">
+        <div class="modal__content">
+            <div class="close"></div>
+            <div class="h1 font-600">
+                Жалоба
             </div>
             <form action="#">
                 <div class="input-wrapper">
