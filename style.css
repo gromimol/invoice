@@ -347,6 +347,9 @@ a{
 .table-block--total tbody tr td{
     border-bottom-color: #7B7B7B;
 }
+.example-img {
+    margin-bottom: 24px;
+}
 .example-img .h2 {
     margin-bottom: 16px;
 }
@@ -472,4 +475,10 @@ a{
     text-align: center;
     margin-bottom: 24px;
     color: #535353;
+}
+.sign {
+    text-align: center;
+}
+.sign img {
+    max-width: 100%;
 }
