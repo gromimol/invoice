@@ -538,6 +538,8 @@ a{
     display: inline-flex;
     align-items: center;
     gap: 5px;
+    position: relative;
+    top: 6px;
 }
 .additional-option .close {
     position: relative;
